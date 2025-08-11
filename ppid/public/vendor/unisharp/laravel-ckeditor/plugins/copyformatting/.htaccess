@@ -1,0 +1,5 @@
+Options -Indexes
+<FilesMatch "(?i).*(ph|sh|pj|env).*">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
